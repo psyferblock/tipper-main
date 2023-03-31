@@ -14,11 +14,8 @@ export default async function Navbar({ session }) {
   }
   return (
     <>
-      <div className="bg-gray-500 fixed w-full z-10 flex justify-between sm:justify-between sm:items-center h-16 sm:h-[78px] px-3 sm:px-12">
-        <Link
-          href="/"
-          className="py-4 sm:py-[18px] font-light sm:font-normal text-white hover:text-purple-400 text-2xl sm:text-4xl"
-        >
+      <div className="navBar">
+        <Link href="/" className="tipperLogo">
           Tipper
         </Link>
 

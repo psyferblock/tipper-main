@@ -6,7 +6,7 @@ import { createServerClient } from "@/utils/supabase-server";
 export default async function TipperHomePage({ params }) {
   return (
     <>
-      <div className="sm:h-fit sm:min-h-screen px-3 sm:px-12 py-5 sm:py-8">
+      <div className="backgroundColorPrimary sm:h-fit sm:min-h-screen px-3 sm:px-12 py-5 sm:py-8">
         <div
           className="py-20 sm:py-32"
           style={{

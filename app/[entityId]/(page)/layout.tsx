@@ -58,23 +58,8 @@ export default async function EntityPageLayout({
   }
 
   return (
-    <>
-      {/* MOBILE "MANAGE ENTITY" */}
-      {/* <div className="flex items-center justify-between sm:hidden h-16 px-3 bg-gray-300 w-full z-50 fixed text-2xl font-bold">
-        <div>
-          <div>{entityInfos.entity_name}</div>
-          <CopyUrlShareWhatsappButtons />
-        </div>
-        {userOwnsEntity && (
-          <Link
-            href={`${entityOwnedId}/manageEntity/entityInfo`}
-            className="h-fit rounded-3xl text-blue-500 pb-2 text-sm "
-          >
-            Manage
-          </Link>
-        )}
-      </div> */}
-
+    <div className="backgroundColorPrimary">
+      {/* MOBILE VERSIONNN */}
       <div className=" sm:hidden h-16 px-3 bg-gray-300 w-full z-50 fixed text-2xl font-bold">
         <div className="flex items-center justify-between">
           <div>{entityInfos.entity_name}</div>
@@ -147,6 +132,6 @@ export default async function EntityPageLayout({
           pictureUrl={entityInfos.about_us_picture_url}
         />
       </div>
-    </>
+    </div>
   );
 }

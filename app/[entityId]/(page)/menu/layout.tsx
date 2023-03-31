@@ -15,7 +15,7 @@ export default async function EntityPageMenuSectionLayout({
   const exchangeRateFormatted = exchangeRate?.toLocaleString();
 
   return (
-    <div className="bg-gray-100 py-6 sm:py-8">
+    <div className="backgroundColorPrimary py-6 sm:py-8">
       <div className="text-center sm:my-5 pb-4 sm:pb-4">
         <div className="font-bold text-xl mx-auto pt-2 sm:pt-3 border-t-4 border-blue-500 w-fit">
           Our Menu
