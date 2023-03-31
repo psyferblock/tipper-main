@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(68%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
+}
+
+@layer base {
+  input {
+    @apply border;
+  }  
+
+  textarea {
+    @apply border;
+  }  
+}
